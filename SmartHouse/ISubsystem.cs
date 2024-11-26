@@ -6,6 +6,15 @@ using System.Threading.Tasks;
 
 namespace SmartHouse
 {
+    public interface ISmartHouseFacade
+    {
+        void MorningPreset();
+        void DayPreset();
+        void EveningPreset();
+        void NightPreset();
+        void LeaveFromHome();
+        void ReturnToHome();
+    }
     public interface IHVAC
     {
         void TurnOn();

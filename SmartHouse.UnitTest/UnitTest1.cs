@@ -16,14 +16,13 @@ namespace SmartHouse.UnitTest
 
         public SmartHouseFacadeTests()
         {
-            // Створення мок-об'єктів для залежностей
+            
             _mockHvac = new Mock<IHVAC>();
             _mockAlarm = new Mock<IAlarmSystem>();
             _mockCurtains = new Mock<ICurtains>();
             _mockMultimedia = new Mock<IMultimedia>();
             _mockLights = new Mock<ILights>();
 
-            // Ініціалізація SmartHouseFacade з мок-об'єктами через конструктор
             _smartHouseFacade = new SmartHouseFacade(
                 _mockHvac.Object,
                 _mockAlarm.Object,

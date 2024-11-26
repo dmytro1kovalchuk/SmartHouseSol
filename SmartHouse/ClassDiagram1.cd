@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SmartHouse.HVAC" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAgAAAAAAAAAAAAAAAAAAIAAAAAAAEQAQAAAAARCA=</HashCode>
+      <FileName>SubsystemClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.893" />
+  </Class>
+  <Class Name="SmartHouse.Lights" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAiAAAAAAAA=</HashCode>
+      <FileName>SubsystemClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.94" />
+  </Class>
+  <Class Name="SmartHouse.AlarmSystem" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAABAAAAAAAA=</HashCode>
+      <FileName>SubsystemClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.917" />
+  </Class>
+  <Class Name="SmartHouse.Multimedia" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAgAAAAAAAAUAAAAACACAAAAAAACAAAA=</HashCode>
+      <FileName>SubsystemClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.075" />
+  </Class>
+  <Class Name="SmartHouse.Curtains" BaseTypeListCollapsed="true">
+    <Position X="15" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgCAAAA=</HashCode>
+      <FileName>SubsystemClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.846" />
+  </Class>
+  <Class Name="SmartHouse.SmartHouseFacade">
+    <Position X="13.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAgAAEAAAAAAAAACAAgAAgIAAAAgEAgAAAAAAAAAA=</HashCode>
+      <FileName>SmartHouseFacade.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

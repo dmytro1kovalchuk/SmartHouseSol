@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SmartHouse
 {
-    public class SmartHouseFacade
+    public class SmartHouseFacade : ISmartHouseFacade
     {
         protected IHVAC _hvac;
         protected IAlarmSystem _alarm;
@@ -22,6 +22,9 @@ namespace SmartHouse
             _multimedia = multimedia;
             _lights = lights;
         }
+
+       
+   
 
         public void MorningPreset()
         {
